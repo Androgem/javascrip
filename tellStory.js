@@ -1,4 +1,4 @@
-function tellStory (nameMoodActivity) {
+function tellStory(nameMoodActivity) {
   let story = alert(`Hello my name is ${nameMoodActivity[0]}, i am ${nameMoodActivity[1]} today and my activity for today is ${nameMoodActivity[2]}`)
   console.log(nameMoodActivity);
   return story
